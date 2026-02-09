@@ -1,4 +1,4 @@
-JavaScript 
+
 document.addEventListener('DOMContentLoaded', () => {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     let cartLink = document.getElementById('cartLink');
